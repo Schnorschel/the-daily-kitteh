@@ -1,5 +1,7 @@
 :root {
   font: 16px / 1 sans-serif;
+  font-family: 'Verdana';
+  background-color: #008aa1;
 }
 
 html {
@@ -9,4 +11,78 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+}
+
+header {
+  font-family: 'Times Roman';
+  text-align: center;
+  font-size: 48px;
+  padding-top: 0.5em;
+  padding-bottom: 0.25em;
+}
+
+nav {
+  background-color: #00bfd5;
+}
+
+nav ul {
+  list-style-type: none;
+  justify-content: center;
+  padding-right: 0.25em;
+  margin-right: 0.25em;
+  display: flex;
+  color: white;
+}
+
+footer {
+  background-color: #d3d3d3;
+}
+footer ul {
+  list-style-type: none;
+  justify-content: center;
+  display: flex;
+}
+
+nav ul li {
+  padding: 0.75em 0.75em;
+}
+
+nav ul li a {
+  color: white;
+}
+
+footer ul li {
+  padding: 0.75em 0.75em;
+}
+
+footer ul li a {
+  color: black;
+}
+#all {
+  margin: 7px 15% 10% 15%;
+  background-color: #ddf2f3;
+}
+
+#main-content {
+  display: flex;
+}
+img {
+  width: 200px;
+  margin: 5px 5px;
+}
+
+aside {
+  border: 1px solid #00bfd5;
+  margin-left: 1.5em;
+  margin-right: 1em;
+}
+
+main {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 0;
 }
